@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+ 
+  <!-- ROS and network parameter files -->
+  <arg name="ros_param_file" default="$(find yolo_detector)/config/yolo_ros.yaml"/>
+ 
+  <rosparam command="load" file="$(arg ros_param_file)"/>
+  <!-- Start darknet and ros wrapper -->
+  <node pkg="yolo_detector" type="rosnode_yolo" name="rosnode_yolo" output="screen" >
+  </node>
+  
+  
+</launch>

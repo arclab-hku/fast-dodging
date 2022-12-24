@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+  <node pkg="sort_ros" type="sort_ros_node" name="sort_ros_node" output="screen" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find sort_ros)/launch/rviz_sort.rviz" required="true" />
+
+  <!-- <node pkg="rosbag" type="record" name="bag_record" args="/objects_states /markers_tracked -o /home/minghao/ball2.bag"/> -->
+
+
+</launch>

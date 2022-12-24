@@ -1,0 +1,14 @@
+subscribers:
+  camera_reading:
+    img_topic: /camera/color/image_raw
+    depth_topic: /camera/depth/image_rect_raw
+    
+yolo:
+  model_reading:
+    model_path: /home/minghao/catkin_ws/src/yolo_fastest_ros/ncnn/model/yolo-fastestv2-opt.bin
+    para_path: /home/minghao/catkin_ws/src/yolo_fastest_ros/ncnn/model/yolo-fastestv2-opt.param
+  detection_parameters:
+    use_gpu: true
+    input_size: 672
+    nmsThresh: 0.25
+    confThresh: 0.89
