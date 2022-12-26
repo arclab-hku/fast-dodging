@@ -207,12 +207,4 @@ target_link_libraries(rosnode_yolo
     ${CMAKE_THREAD_LIBS_INIT}
     # ${CMAKE_CURRENT_SOURCE_DIR}/lib/libglslang.a
     )  #${CMAKE_THREAD_LIBS_INIT}
-    
-add_executable(visualize
-    src/visualize.cpp
-    )
-target_link_libraries(visualize
-    ${catkin_LIBRARIES}
-    # ${CMAKE_CURRENT_SOURCE_DIR}/lib/libglslang.a
-    )  #${CMAKE_THREAD_LIBS_INIT}
 
