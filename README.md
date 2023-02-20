@@ -1,4 +1,4 @@
-# fast-dodging
+# Fast-dodging
 
 In this repo, we provide the code of fast detection and state estimation of fast small objects. Related paper: "Perception and Avoidance of Multiple Fast Moving Small Objects forQuadrotors with Only Low-cost RGBD Camera". 
 
