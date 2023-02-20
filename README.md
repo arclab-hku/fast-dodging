@@ -3,6 +3,7 @@
 In this repo, we provide the code of fast detection and state estimation of fast small objects. Related paper: "Perception and Avoidance of Multiple Fast Moving Small Objects forQuadrotors with Only Low-cost RGBD Camera". 
 
 youtube link: https://www.youtube.com/watch?v=n1rlnFTOBGE
+
 bilibili link: https://www.bilibili.com/video/BV1uT4y1Q7zx/?spm_id_from=333.337.search-card.all.click
 
 # Yolo-Fastest + 3D-SORT
