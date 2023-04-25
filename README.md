@@ -23,3 +23,5 @@ roslaunch sort_ros sort_ros.launch
 
 realized multi-object detection, 3d tracking and trajectory prediction.
 
+## QQ Group for Discussion
+690764446
